@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .acolor{
 color:crimson;
 }
@@ -36,4 +39,31 @@ color:crimson;
     background-repeat: no-repeat;
     background-position:right;
     padding-right: 10%;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:bottom left;
+}
+.experience-item{
+    width: 45%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px lightgreen;
+}
+#FSWD{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightgreen, rgb(1, 59, 20));
+    border-image-slice: 1;
+}
+#BWD{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, rgb(185, 43, 17));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+   color:gray;
 }
